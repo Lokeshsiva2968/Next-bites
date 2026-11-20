@@ -12,3 +12,8 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to browse the recipes.
+
+## Deploy
+
+The GitHub Actions workflow builds and deploys the static export to GitHub Pages:
+[NextBites live site](https://lokeshsiva2968.github.io/Next-bites/).
