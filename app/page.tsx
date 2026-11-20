@@ -1,4 +1,4 @@
-import RecipeCard from "./components/RecipeCard";
+import RecipeGrid from "./components/RecipeGrid";
 import { recipes } from "./data/recipes";
 
 export default function Home() {
@@ -14,13 +14,7 @@ export default function Home() {
             the full method.
           </p>
         </section>
-        <section id="recipes" aria-label="Recipes">
-          <div className="recipe-grid">
-            {recipes.map((recipe) => (
-              <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
-          </div>
-        </section>
+        <RecipeGrid recipes={recipes} />
       </main>
       <footer className="site-footer">
         Built with Next.js + TypeScript · NextBites
