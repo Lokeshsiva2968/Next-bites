@@ -1,7 +1,8 @@
 # NextBites
 
-A responsive recipe home page built with Next.js and TypeScript. Recipes are
-defined in `app/data/recipes.ts` and rendered as reusable typed cards.
+A responsive recipe app built with Next.js and TypeScript. Recipes are defined
+in `app/data/recipes.ts`, searchable by title or cuisine on the home page, and
+available on individual `/recipe/[id]` pages with ingredients and cooking steps.
 
 ## Run locally
 
